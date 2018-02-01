@@ -23,5 +23,9 @@ type: about
     
     曼联死忠
 
-    
-![]({{ site.url }}/assets/images/photo/photo1.jpg)
+  
+<img class="lazy" data-original="../assets/img/images/photo/photo1.jpg"  />  
+
+<script>
+$('.lazy).lazyload();
+</script>
