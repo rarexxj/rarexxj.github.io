@@ -10,3 +10,4 @@ categories:
 <p>支持Windows、Linux、Android、IOS多设备登录，使用优惠码还能优惠20%，大家可以试试，如果有更好的工具推荐大家可以留言。</p>
 <p>SS翻墙（ShadowSocks 中文名稱：影梭）工具<a href="http://my.yizhihongxing.com/aff.php?aff=4035" target="_blank" rel="external">官网</a></p>
 
+<p>转载自：[优秀的程序员都在用谷歌](https://www.ezlippi.com/blog/2017/02/ss-proxy-guide.html)</p>
