@@ -3,26 +3,28 @@ layout: page
 type: about
 ---
 
-# 个人简介：
 
-## 谢希杰
 
-## 前端工程狮
+## 个人简介：
 
-## 来自杭州
+### 谢希杰
 
-## Email: rarexxj@163.com
+### 前端工程狮
 
-## 正在考虑求职机会。
+### 来自杭州
 
-# 关于本站：
+### Email: rarexxj@163.com
 
-## 博客搭建于Github,欢迎Fork
+### 正在考虑求职机会。
 
-## jekyll搭建博客指南:Next主题
+## 关于本站：
 
-# 其他流言
+### 博客搭建于Github,欢迎Fork
+
+### jekyll搭建博客指南:Next主题
+
+## 其他流言
     
-## 曼联死忠
+### 曼联死忠
 
 ![]({{ site.url }}/assets/images/photo/photo1.jpg)
