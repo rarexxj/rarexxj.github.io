@@ -1,6 +1,6 @@
 ---
 title: 优秀的程序员都在用谷歌
-date: 2017-02-02 23:30:09
+date: 2017-02-02
 categories:
 - Google
 tags:

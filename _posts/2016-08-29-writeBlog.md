@@ -1,11 +1,10 @@
 ---
 title: NexT撰写博客内容的格式
-date: 2016-08-29 20:22:09
+date: 2016-08-29
 categories:
 - jekyll
 tags:
 - jekyll
-- Google
 photos:
 - http://ww1.sinaimg.cn/mw690/81b78497jw1emfgwkasznj21hc0u0qb7.jpg
 - http://ww3.sinaimg.cn/mw690/81b78497jw1emfgwjrh2pj21hc0u01g3.jpg
