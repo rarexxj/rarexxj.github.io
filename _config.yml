@@ -92,7 +92,7 @@ since: 2015
 authoricon: heart
 
 # Footer `powered-by` and `theme-info` copyright
-copyright: true
+copyright: false
 
 # ---------------------------------------------------------------
 # SEO Settings
@@ -218,6 +218,7 @@ social:
     微博: http://weibo.com/1932156373/
     豆瓣: http://www.douban.com/people/142218026/
     知乎: http://www.zhihu.com/people/xie-xi-jie-28/
+    个人网站: http://http://xiexiaoxi.applinzi.com/
 #    LinkLabel: Link
 
 
@@ -235,6 +236,7 @@ social_icons:
   微博: weibo
   豆瓣: globe
   知乎: eercast
+  个人网站: automobile
 
 
 # Sidebar Avatar
