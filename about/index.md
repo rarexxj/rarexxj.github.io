@@ -13,6 +13,8 @@ type: about
 
     ### Email: rarexxj@163.com
 
+正在考虑求职机会。
+
 # 关于本站：
 
     ### 博客搭建于Github,欢迎Fork
