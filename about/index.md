@@ -5,7 +5,9 @@ type: about
 
 # 个人简介：
 
-    ### 谢希杰
+    {% highlight ruby %}
+        谢希杰
+    {% endhighlight %}
 
     ### 前端工程狮
 
