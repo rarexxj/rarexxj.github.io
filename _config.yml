@@ -6,7 +6,7 @@
 # Site
 title: Xie Xijie's Blog
 subtitle:
-description: welcome to my blog
+description: This is a happy blog
 author: Xie Xijie
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: zh-Hans
@@ -372,7 +372,7 @@ han: false
 #swiftype_key:
 
 # Baidu Analytics ID
-#baidu_analytics:
+baidu_analytics: 199b228e278efe7fe777460f84223861
 
 # Duoshuo ShortName
 #duoshuo_shortname:
