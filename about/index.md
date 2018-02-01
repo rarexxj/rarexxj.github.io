@@ -27,5 +27,5 @@ type: about
 <img class="lazy" data-original="../assets/img/images/photo/photo1.jpg"  />  
 
 <script>
-$('.lazy).lazyload();
+$('.lazy').lazyload();
 </script>
