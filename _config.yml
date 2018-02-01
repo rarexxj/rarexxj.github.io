@@ -217,7 +217,7 @@ social:
 #    Twitter: https://twitter.com/your-user-name
     微博: http://weibo.com/1932156373/
     豆瓣: http://www.douban.com/people/142218026/
-    知乎: http://www.zhihu.com/people/xie-xi-jie-28/activities
+    知乎: http://www.zhihu.com/people/xie-xi-jie-28/
 #    LinkLabel: Link
 
 
@@ -233,8 +233,8 @@ social_icons:
   GitHub: github
 #  Twitter: twitter
   微博: weibo
-  豆瓣: douban
-  知乎: zhihu
+  豆瓣: globe
+  知乎: eercast
 
 
 # Sidebar Avatar
