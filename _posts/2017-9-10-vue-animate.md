@@ -9,7 +9,7 @@ tags:
 ---
 
 前几天做项目的时候，需要实现一个动态锚点的效果
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img50.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img50.gif)
 
 
 如果是传统项目，这个效果就非常简单。但是放到 Vue 中，就有两大难题：

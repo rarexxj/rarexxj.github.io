@@ -73,7 +73,7 @@ Vue 的组件作用域都是孤立的，不允许在子组件的模板内直接�
 
 getUser 方法中的参数 msg 就是从子组件传递过来的参数 username
 
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img16.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img16.gif)
 
 
 ## 子组件向子组件传递数据

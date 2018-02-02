@@ -62,7 +62,7 @@ tags:
 
 Vue 还可以将多个子组件，都挂载在同一个位置，通过变量来切换组件，实现 tab 菜单这样的效果
 
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img42.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img42.gif)
 
 
 这样的功能可以通过路由 vue-router 实现，但路由更适合较大的组件，而且 url 会有相应的改变
@@ -78,7 +78,7 @@ Vue 自身保留的 `<component>`元素，可以将组件动态绑定到 is 特�
 
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img44.png)
 
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img45.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img45.gif)
 
 
 

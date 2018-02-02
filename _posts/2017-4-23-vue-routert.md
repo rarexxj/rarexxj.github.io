@@ -20,7 +20,7 @@ tags:
 
 
 这次的实例主要实现下图的效果：
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img17.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img17.gif)
 
 项目结构：
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img18.png)
@@ -209,7 +209,7 @@ this.$router.push({ name: 'home', params: { userId: wise }})
 ## 前车之鉴
 
 在学习的过程中，遇到一个困扰许久的问题，大概是从 first 组件跳转回 login 之后，无法再跳转回去。但是 url 已经被修改，刷新页面也能正常显示。
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img24.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img24.gif)
 
 
 这是因为我在 first.vue 组件中的 data 里面没有写 return
