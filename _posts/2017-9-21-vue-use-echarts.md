@@ -16,22 +16,22 @@ tags:
 
 使用 cnpm 安装 Echarts
 
-#cnpm install echarts -S
+```cnpm install echarts -S```
 
 和之前介绍的 axios 类似，echarts 也不能通过 Vue.use() 进行全局调用
 
 通常是在需要使用图表的 .vue 文件中直接引入
 
-#import echarts from 'echarts'
+```import echarts from 'echarts'```
 
 
 也可以在 main.js 中引入，然后修改原型链
 
-#Vue.prototype.$echarts = echarts
+```Vue.prototype.$echarts = echarts```
 
 然后就可以全局使用了
 
-#let myChart = this.$echarts.init(document.getElementById('myChart'))
+```let myChart = this.$echarts.init(document.getElementById('myChart'))```
 
 
 ## 创建图表
