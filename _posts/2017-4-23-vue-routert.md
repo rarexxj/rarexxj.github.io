@@ -20,10 +20,10 @@ tags:
 
 
 这次的实例主要实现下图的效果：
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img17.gif?Expires=1517556823&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=Ko3LSn%2FPh%2BhX7oabcDaypXaqYmg%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img17.gif?Expires=1517562431&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=cO0nKcj0pKqybKDDorxA7x0A37U%3D)
 
 项目结构：
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img18.png?Expires=1517556858&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=yDru8Ya0OY8fCaJ1EhQ9llUJNuU%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img18.png?Expires=1517562446&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=wfITrvPIw414aq9HbVE%2BnRd02ak%3D)
 
 
 ## 配置 Router
@@ -93,7 +93,7 @@ new Vue({
 ## 嵌套路由
 
 在这个实例中，为了加深项目层级，App.vue 只是作为一个存放组件的容器：
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img19.png?Expires=1517556932&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=4336ixXAhVuf%2BLiGPf9YJ3LxUeM%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img19.png?Expires=1517562466&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=ZHpJYS5sk9KXEKsEkrGXudryoPo%3D)
 
 其中 <router-view> 是用来渲染通过路由映射过来的组件，当路径更改时，<router-view> 中的内容也会发生更改
 
@@ -102,7 +102,7 @@ new Vue({
 
 
 home.vue 是真正的父组件，first.vue、login.vue 等子组件都会渲染到 home.vue 中的 <router-view>
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img20.png?Expires=1517556969&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=F3XVRAqQxEc%2F4i635JAEApAAi4I%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img20.png?Expires=1517562484&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=mJWXXer5CtxOk69y4C1MTxAnSO4%3D)
 
 如此一来，就需要在一级路由中嵌套二级路由，修改 routers.js
 
@@ -158,7 +158,7 @@ home.vue 中引入了 header.vue 组件，其中含有导航菜单
 当点击导航菜单的时候，会切换 home.vue 中 <router-view> 中的内容
 
 这种只需要跳转页面，不需要添加验证方法的情况，可以使用 <router-link> 来实现导航的功能：
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img21.png?Expires=1517557013&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=wDo43b6jhorVl2TrH8pg0vsIzOU%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img21.png?Expires=1517562506&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=6vms47Cgqbmkx56MO4UP7xFpZ58%3D)
 
 
 在编译之后，<router-link> 会被渲染为 <a> 标签， to 会被渲染为 href，当 <router-link> 被点击的时候，url 会发生相应的改变
@@ -185,9 +185,9 @@ home.vue 中引入了 header.vue 组件，其中含有导航菜单
 ## 编程式导航
 
 实际情况下，有很多按钮在执行跳转之前，还会执行一系列方法，这时可以使用 this.$router.push(location) 来修改 url，完成跳转
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img22.png?Expires=1517557062&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=hNkM9Labz7HsNn8CEgD0e%2FRe9MY%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img22.png?Expires=1517562517&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=%2BqiywPvE%2FwU2z4GOyKCATnHWS8E%3D)
 
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img23.png?Expires=1517557079&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=UZwfKHmN298VofbGHbuxUfcQgUY%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img23.png?Expires=1517562530&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=P1tlgZS%2BGHtnRIgLGPnxmM4aEq8%3D)
 
 
 push 后面可以是对象，也可以是字符串：
@@ -209,12 +209,12 @@ this.$router.push({ name: 'home', params: { userId: wise }})
 ## 前车之鉴
 
 在学习的过程中，遇到一个困扰许久的问题，大概是从 first 组件跳转回 login 之后，无法再跳转回去。但是 url 已经被修改，刷新页面也能正常显示。
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img24.gif?Expires=1517557110&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=V0wdAelMNr%2FvGxIlMAa0reT740k%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img24.gif?Expires=1517562550&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=ypRNpveBLol2xGa1KSww8qv5GEE%3D)
 
 
 这是因为我在 first.vue 组件中的 data 里面没有写 return
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img25.png?Expires=1517557125&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=CghAi1GNUb9Sc9t11U7vyma9d8U%3D)
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img26.png?Expires=1517557136&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=KAeBi%2BegBOBzv7um%2FCYhg83pdWs%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img25.png?Expires=1517562575&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=CJtOx17%2BXm8LU%2BYHR7aSP0oztOE%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img26.png?Expires=1517562589&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=xXkXBVHoqfw2Hv8JOwL47N70VjQ%3D)
 
 在 vue 组件中，data 必须写为函数，且需要用 return 来返回参数。但是当 data 为空时，即使不写 return 也不会报错，所以导致了上面的问题。
 

@@ -17,7 +17,7 @@ vue-cli 是一个官方发布 vue.js 项目脚手架，使用 vue-cli 可以快�
 
 安装完成后，可以命令行工具中输入 node -v 和 npm -v，如果能显示出版本号，就说明安装成功。
 
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img1.png?Expires=1517554958&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=A9ooCHL8BsxaT56funzZ6U%2F1GrY%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img1.png?Expires=1517561799&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=brRdk5e1ASOSqqrOAC1111Uzitw%3D)
 
 ## 安装 vue-cli
 
@@ -33,7 +33,7 @@ npm install -g cnpm --registry=https://registry.npm.taobao.org
 
 同样可以使用 cnpm -v 查看是否安装成功
 
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img2.png?Expires=1517554995&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=3Xr6f5mbwPBvkQNWXgOWGNO8%2BIs%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img2.png?Expires=1517561861&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=wuwTtGjfqO0X4ewC7saY0eziG5Y%3D)
 
 然后使用 cnpm 安装 vue-cli 和 webpack
 
@@ -42,7 +42,7 @@ cnpm install -g vue-cli
 最新的 vue 项目模板中，都带有 webpack 插件，所以这里可以不安装 webpack
 
 安装完成后，可以使用 vue -V （注意 V 大写）查看是否安装成功。
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img3.png?Expires=1517555302&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=4t0Uz5UgNxyD0hEvyYk3oNN9IR4%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img3.png?Expires=1517561893&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=7r4PqFCnS54%2BDPff60UurHC%2FXSc%3D)
 
 如果提示“无法识别 'vue' ” ，有可能是 npm 版本过低，可以使用 npm install -g npm 来更新版本
 
@@ -56,7 +56,7 @@ vue init webpack Vue-Project
 
 Vue-Project 是自定义的项目名称，命令执行之后，会在当前目录生成一个以该名称命名的项目文件夹
 
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img4.png?Expires=1517555327&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=cHxnFB8Ahk2MkGQb46pp08r7GOA%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img4.png?Expires=1517561917&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=il6JiPYnX9AJJPRfrKAEQb5eDVg%3D)
 
 配置完成后，可以看到目录下多出了一个项目文件夹，里面就是 vue-cli 创建的一个基于 webpack 的 vue.js 项目
 
@@ -70,7 +70,7 @@ npm run dev
 
 如果浏览器打开之后，没有加载出页面，有可能是本地的 8080 端口被占用，需要修改一下配置文件 config>index.js
 
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img5.png?Expires=1517555342&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=T0hOKx%2B%2FVhcP6n2ZQgYsumsNlJU%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img5.png?Expires=1517561944&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=boDfP7smKBhuD1veNYd84nk28ec%3D)
 
 建议将端口号改为不常用的端口。另外我还将 build 的路径前缀修改为 ' ./ '（原本为 ' / '），是因为打包之后，外部引入 js 和 css 文件时，如果路径以 ' / ' 开头，在本地是无法找到对应文件的（服务器上没问题）。所以如果需要在本地打开打包后的文件，就得修改文件路径。
 
