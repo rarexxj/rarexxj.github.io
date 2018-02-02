@@ -12,14 +12,14 @@ tags:
 
 ## 基本用法
 
-在使用 vue-cli 创建的项目中，组件的创建非常方便，只需要新建一个 .vue 文件，然后在 <template> 中写好 HTML 代码，一个简单的组件就完成了
+在使用 vue-cli 创建的项目中，组件的创建非常方便，只需要新建一个 .vue 文件，然后在 `<template>` 中写好 HTML 代码，一个简单的组件就完成了
 
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img33.png?Expires=1517562987&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=JUvIFnc%2F3KBBPU5xiIVDnZj3clA%3D)
 
 
-一个完整的组件，除了 <template> 以外，还有 <script> 和 <style>
+一个完整的组件，除了 `<template>` 以外，还有 `<script>` 和 `<style>`
 
-需要注意的是，<script> 中的 data 必须是函数
+需要注意的是，`<script>` 中的 data 必须是函数
 
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img34.png?Expires=1517563108&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=m4SBN6XT%2FOGsX34Gqx5oL0wNVSM%3D)
 
@@ -50,9 +50,9 @@ tags:
 
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img40.png?Expires=1517563162&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=AJoz2r6w0RGAftAJbL7eJN9IWLw%3D)
 
-这个示例中，首先在子组件中添加 <slot>，并在子组件中定义了数组变量 navs
+这个示例中，首先在子组件中添加 `<slot>`，并在子组件中定义了数组变量 navs
 
-然后在父组件中以作用域 <template> 添加内容，其中 scope 是固有属性，它的值对应一个临时变量 props
+然后在父组件中以作用域 `<template>` 添加内容，其中 scope 是固有属性，它的值对应一个临时变量 props
 
 而 props 将接收从父组件传递给子组件的参数 navs
 
@@ -67,12 +67,12 @@ Vue 还可以将多个子组件，都挂载在同一个位置，通过变量来�
 
 这样的功能可以通过路由 vue-router 实现，但路由更适合较大的组件，而且 url 会有相应的改变
 
-Vue 自身保留的 <component> 元素，可以将组件动态绑定到 is 特性上，从而很方便的实现动态组件切换
+Vue 自身保留的 `<component>`元素，可以将组件动态绑定到 is 特性上，从而很方便的实现动态组件切换
 
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img43.png?Expires=1517563187&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=DX5yrewtzkqj4IKoH9ZkCuIOXhg%3D)
 
 
-上例中，当 tabView 的值改变，<component> 就会渲染对应的组件，和路由的效果十分类似，但是地址栏并没有发生改变
+上例中，当 tabView 的值改变，`<component>` 就会渲染对应的组件，和路由的效果十分类似，但是地址栏并没有发生改变
 
 但这样一来，每次切换组件都会重新渲染，无法保留组件上的数据。这时可以使用 keep-alive 将组件保留在内存中，避免重新渲染
 
