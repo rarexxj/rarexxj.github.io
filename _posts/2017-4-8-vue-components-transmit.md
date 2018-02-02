@@ -16,7 +16,7 @@ Vue 的组件作用域都是孤立的，不允许在子组件的模板内直接�
 
 
 
-## 一、父组件向子组件传递数据
+## 父组件向子组件传递数据
 
 在 Vue 中，可以使用 props 向子组件传递数据。
 
@@ -45,7 +45,7 @@ Vue 的组件作用域都是孤立的，不允许在子组件的模板内直接�
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img11.png?Expires=1517555184&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=v%2BUYgb2umB%2FJIqCe7x8%2BV34R4ms%3D)
 
 
-## 二、子组件向父组件传递数据
+## 子组件向父组件传递数据
 
 子组件主要通过事件传递数据给父组件
 
@@ -76,7 +76,7 @@ getUser 方法中的参数 msg 就是从子组件传递过来的参数 username
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img16.gif?Expires=1517555243&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=PuPznVZygk0irZ7U%2FNlHvbfXXmc%3D)
 
 
-## 三、子组件向子组件传递数据
+## 子组件向子组件传递数据
 
 Vue 没有直接子对子传参的方法，建议将需要传递数据的子组件，都合并为一个组件。如果一定需要子对子传参，可以先从传到父组件，再传到子组件。
 

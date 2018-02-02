@@ -9,7 +9,7 @@ tags:
 
 vue-cli 是一个官方发布 vue.js 项目脚手架，使用 vue-cli 可以快速创建 vue 项目，GitHub地址是：https://github.com/vuejs/vue-cli
 
-## 一、 安装 node.js
+## 安装 node.js
 
 首先需要安装node环境，可以直接到中文官网http://nodejs.cn/下载安装包。
 
@@ -19,7 +19,7 @@ vue-cli 是一个官方发布 vue.js 项目脚手架，使用 vue-cli 可以快�
 
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img1.png?Expires=1517554958&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=A9ooCHL8BsxaT56funzZ6U%2F1GrY%3D)
 
-## 二、安装 vue-cli
+## 安装 vue-cli
 
 安装好了 node，我们可以直接全局安装 vue-cli：
 
@@ -46,7 +46,7 @@ cnpm install -g vue-cli
 
 如果提示“无法识别 'vue' ” ，有可能是 npm 版本过低，可以使用 npm install -g npm 来更新版本
 
-## 三、生成项目
+## 生成项目
 
 首先需要在命令行中进入到项目目录，然后输入：
 
@@ -75,7 +75,7 @@ npm run dev
 建议将端口号改为不常用的端口。另外我还将 build 的路径前缀修改为 ' ./ '（原本为 ' / '），是因为打包之后，外部引入 js 和 css 文件时，如果路径以 ' / ' 开头，在本地是无法找到对应文件的（服务器上没问题）。所以如果需要在本地打开打包后的文件，就得修改文件路径。
 
 
-## 四、打包上线
+## 打包上线
 
 自己的项目文件都需要放到 src 文件夹下
 

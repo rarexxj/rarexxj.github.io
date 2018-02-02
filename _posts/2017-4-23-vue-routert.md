@@ -22,18 +22,11 @@ tags:
 这次的实例主要实现下图的效果：
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img17.gif?Expires=1517556823&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=Ko3LSn%2FPh%2BhX7oabcDaypXaqYmg%3D)
 
-
-
-
 项目结构：
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img18.png?Expires=1517556858&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=yDru8Ya0OY8fCaJ1EhQ9llUJNuU%3D)
 
 
-
-
-
-
-一、配置 Router
+## 配置 Router
 
  用 vue-cli 创建的初始模板里面，并没有 vue-router，需要通过 npm 安装
 ```
@@ -97,7 +90,7 @@ new Vue({
 
 
 
-二、嵌套路由
+## 嵌套路由
 
 在这个实例中，为了加深项目层级，App.vue 只是作为一个存放组件的容器：
 ![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img19.png?Expires=1517556932&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=4336ixXAhVuf%2BLiGPf9YJ3LxUeM%3D)

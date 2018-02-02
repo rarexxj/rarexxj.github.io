@@ -27,7 +27,7 @@ cnpm install axios -S
 
 
 
-方案一：改写原型链
+## 改写原型链
 
 首先在 main.js 中引入 axios
 
@@ -57,7 +57,7 @@ methods: {
 
 
 
-方案二：在 Vuex 中封装
+## 在 Vuex 中封装
 
 之前的文章中用到过 Vuex 的 mutations，从结果上看，mutations 类似于事件，用于提交 Vuex 中的状态 state
 
