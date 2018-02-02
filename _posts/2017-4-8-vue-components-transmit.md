@@ -11,7 +11,7 @@ Vue 的组件作用域都是孤立的，不允许在子组件的模板内直接�
 
 首先用 vue-cli 创建一个项目，其中 App.vue 是父组件，components 文件夹下都是子组件。
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109165155181-204201308.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img6.png?Expires=1517555117&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=7YmfliRbma3cl%2FsxonniQ9BTGKo%3D)
 
 
 
@@ -22,27 +22,27 @@ Vue 的组件作用域都是孤立的，不允许在子组件的模板内直接�
 
 ### 子组件部分：
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109170139010-688699750.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img7.png?Expires=1517555132&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=LMu7BBfMAVLf6bzGmOEeb%2FAdLYY%3D)
 
 这是 header.vue 的 HTML 部分，logo 是在 data 中定义的变量。
 
 如果需要从父组件获取 logo 的值，就需要使用 props: ['logo']
 
-![](https://images2015.cnblogs.com/blog/1059788/201705/1059788-20170525142122513-904555256.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img8.png?Expires=1517555146&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=RcbLhUGiyL3gyQzdVEj3p8UwoaM%3D)
 
 在 props 中添加了元素之后，就不需要在 data 中再添加变量了
 
 ### 父组件部分：
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109171610213-24092957.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img9.png?Expires=1517555160&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=Y1qvWLesLaNATpDYcuhpQ6kdi%2Fc%3D)
 
 在调用组件的时候，使用 v-bind 将 logo 的值绑定为 App.vue 中定义的变量 logoMsg
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109190812838-1696763381.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img10.png?Expires=1517555173&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=l1NKKzyf4A%2BYcekuLetmlhg6AXQ%3D)
 
 然后就能将App.vue中 logoMsg 的值传给 header.vue 了：
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109172927588-2043890493.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img11.png?Expires=1517555184&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=v%2BUYgb2umB%2FJIqCe7x8%2BV34R4ms%3D)
 
 
 ## 二、子组件向父组件传递数据
@@ -51,13 +51,13 @@ Vue 的组件作用域都是孤立的，不允许在子组件的模板内直接�
 
 ### 子组件部分：
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109184158306-1341016729.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img12.png?Expires=1517555198&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=DhWshHBBMgir09%2Bh7GQAJlIQzVM%3D)
 
 这是 login.vue 的 HTML 部分，当<input>的值发生变化的时候，将 username 传递给 App.vue
 
 首先声明一个了方法 setUser，用 change 事件来调用 setUser
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109184259619-114055729.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img13.png?Expires=1517555209&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=stApb%2Fxev%2FMfb2%2FpCCDJ0nFJvlI%3D)
 
 在 setUser 中，使用了 $emit 来遍历 transferUser 事件，并返回 this.username
 
@@ -65,15 +65,15 @@ Vue 的组件作用域都是孤立的，不允许在子组件的模板内直接�
 
 ### 父组件部分：
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109185337056-91588339.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img14.png?Expires=1517555220&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=grJNnmIYxjuBUQoX5cfFnjREDmg%3D)
 
 在父组件 App.vue 中，声明了一个方法 getUser，用 transferUser 事件调用 getUser 方法，获取到从子组件传递过来的参数 username
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109185432181-777742861.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img15.png?Expires=1517555233&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=%2FOyiYuntcgdLZ%2Bxr6l1SXduGN0E%3D)
 
 getUser 方法中的参数 msg 就是从子组件传递过来的参数 username
 
-![](https://images2015.cnblogs.com/blog/1059788/201701/1059788-20170109190301635-671030020.gif)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/img16.gif?Expires=1517555243&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=PuPznVZygk0irZ7U%2FNlHvbfXXmc%3D)
 
 
 ## 三、子组件向子组件传递数据
