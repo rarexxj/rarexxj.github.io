@@ -1,6 +1,6 @@
 ---
 title: Vue 爬坑之路（一）—— 使用 vue-cli 搭建项目
-date: 2017-12-8
+date: 2017-3-8
 categories:
 - Vue
 tags:
@@ -87,4 +87,4 @@ npm run build
 项目上线时，只需要将 dist 文件夹放到服务器就行了。
 
 
-转载自：[Vue 爬坑之路（一）—— 使用 vue-cli 搭建项目](http://blog.csdn.net/wisewrong/article/details/55212684)
+转载自：[Vue 爬坑之路（一）—— 使用 vue-cli 搭建项目](http://www.cnblogs.com/wisewrong/p/6255817.html#3898348)
