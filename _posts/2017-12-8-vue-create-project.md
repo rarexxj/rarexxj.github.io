@@ -85,3 +85,6 @@ npm run build
 打包完成后，会生成 dist 文件夹，如果已经修改了文件路径，可以直接打开本地文件查看
 
 项目上线时，只需要将 dist 文件夹放到服务器就行了。
+
+
+转载自：[Vue 爬坑之路（一）—— 使用 vue-cli 搭建项目](http://blog.csdn.net/wisewrong/article/details/55212684)
