@@ -37,13 +37,13 @@ tags:
 ## 创建图表
 
 首先需要在 HTML 中创建图表的容器
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img53.png?Expires=1517565094&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=2uAZA2gbAwgAhm3PAmcgumkqGOw%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img53.png)
 
 
 需要注意的是，图表的容器必须指定宽高，也就是说 width，height 不能使用百分比，只能用 px
 
 这样确实不够灵活，不过我们可以用 js 来改变 width 和 height，使图表容器能够自适应，具体的实现请往后看
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img54.png?Expires=1517565106&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=w7n0HFkc2cHNJITWfpsAON%2F9RUQ%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img54.png)
 
 然后在 mounted 中创建图表，具体的配置参考官方文档，这里不再赘述
 

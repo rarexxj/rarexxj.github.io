@@ -9,7 +9,7 @@ tags:
 ---
 
 前几天做项目的时候，需要实现一个动态锚点的效果
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img50.gif?Expires=1517564549&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=lV8vrr8iwoT1jER000%2BCLXedKiE%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img50.png)
 
 
 如果是传统项目，这个效果就非常简单。但是放到 Vue 中，就有两大难题：
@@ -35,11 +35,11 @@ tags:
 
 
 首先在父组件（表单）中添加 class="d_jump" 作为钩子
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img51.png?Expires=1517564566&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=U0R%2BEMCVQ7G3HSVAn%2Ba88x6pNvY%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img51.png)
 
 
 然后在子组件中添加一个 jump 方法
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img52.png?Expires=1517564577&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=wRYMhqZRRWQcOwCW1CiOs86VpH8%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img52.png)
 
 
 ```

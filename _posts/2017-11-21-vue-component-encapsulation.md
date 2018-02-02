@@ -22,11 +22,11 @@ tags:
 为了解耦，子组件本身就不能生成数据。即使生成了，也只能在组件内部运作，不能传递出去。
 
 父对子传参，就需要用到 props，通常的 props 是这样的：
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img55.png?Expires=1517565806&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=vcYAaU6fd9i%2BXDWHPvmOdXIyGfE%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img55.png)
 
 
 但是通用组件的的应用场景比较复杂，对 props 传递的参数应该添加一些验证规则
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img56.png?Expires=1517565816&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=7IAtxY2R5rsIutSt%2FAGx4FgyldQ%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img56.png)
 
 
 
@@ -36,7 +36,7 @@ tags:
 
 如果一定需要有这样的操作，可以这么写：
 
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img57.png?Expires=1517565831&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=wg1W3naObSHs3t%2FNfXIAsSKlzR8%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img57.png)
 
 
 为什么不直接写 let myData = this.data 呢？
@@ -53,8 +53,8 @@ tags:
 比如复选框的 change 事件，或者组件中某个按钮的 click 事件
 
 这些事件的处理方法应当尽量放到父组件中，通用组件本身只作为一个中转
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img58.png?Expires=1517565841&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=2i7FBff8mjzMUFz%2Fl1h%2FLMPox9E%3D)
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img59.png?Expires=1517565855&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=%2F9cSbgtSlOGPky5lD8n61WZhhtk%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img58.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img59.png)
 
 
 这样既降低了耦合性，也保证了通用组件中的数据不被污染
@@ -79,8 +79,8 @@ tags:
 上面是一个通用组件，在某些场景中，右侧的按钮是 “处理” 和 “委托”。在另外的场景中，按钮需要换成 “查看” 或者 “删除”
 
 在封装组件的时候，就不用写按钮，只需要在合适的位置留一个 slot，将按钮的位置留出来，然后在父组件写入按钮
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img60.png?Expires=1517565877&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=8M%2Bm%2Bpt0rSNHcaagsrDqefHzUJw%3D)
-![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img61.png?Expires=1517565884&OSSAccessKeyId=TMP.AQFykThi91U598dTrJc_9IBPer-xtxfyUZ278vOwz9sVKvVjdZC6hsnJbSZiADAtAhQ8dmqdGscv8Mq8gp6YtjbW3Tmz3wIVALsOiURiHSXhx6xtRna9_tLmtbDC&Signature=2RsbSiWLqUZ8CeswoQY4esMy1Ns%3D)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img60.png)
+![](http://xie-blog.oss-cn-beijing.aliyuncs.com/blogImg/img61.png)
 
 
 开发通用组件的时候，只要不是独立性很高的组件，建议都留一个 slot，即使还没想好用来干什么
