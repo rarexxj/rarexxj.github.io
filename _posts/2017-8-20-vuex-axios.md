@@ -15,7 +15,7 @@ Vue 原本有一个官方推荐的 ajax 插件 vue-resource，但是自从 Vue �
 
 ## 前言：
 
-Vuex 的安装将不再赘述，可以参考之前的博客[Vue 爬坑之路（四）—— 与 Vuex 的第一次接触]()
+Vuex 的安装将不再赘述，可以参考之前的博客[Vue 爬坑之路（四）—— 与 Vuex 的第一次接触](http://www.xiexijie.top/vue/2017/04/26/vuex/#)
 
 使用 cnpm 安装 axios
 
