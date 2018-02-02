@@ -17,7 +17,6 @@ type: about
 Email: rarexxj@163.com
 ```
 
-正在考虑求职机会。
 
 ## 关于本站：
 
