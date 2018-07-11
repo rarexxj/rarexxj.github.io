@@ -52,7 +52,8 @@
     clearInterval(clock);
     var result = confirm('你的最终得分为 ' + parseInt($('score').innerHTML));
     if (result) {
-      btn.style.display = 'block'
+      location.reload()
+    } else {
       location.reload()
     }
   }
