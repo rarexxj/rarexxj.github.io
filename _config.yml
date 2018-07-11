@@ -121,8 +121,7 @@ menu:
   about: /about/
 #  archives: /archives/
   tags: /tags/
-  game: /游戏/
-  #sitemap: /sitemap.xml
+  sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
