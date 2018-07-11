@@ -119,9 +119,9 @@ menu:
   home: /
   categories: /categories/
   about: /about/
-#  archives: /archives/
   tags: /tags/
-  sitemap: /sitemap.xml
+  archives: /archives/
+  # sitemap: /sitemap.xml
   #commonweal: /404.html
 
 
